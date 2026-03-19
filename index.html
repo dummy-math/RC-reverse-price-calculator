@@ -165,8 +165,7 @@
       output.style.display = "block";
       output.innerHTML = `
         <div><span class="label">Original price candidates:</span> ${res.candidates.join(", ") || "None"}</div>
-        <div><span class="label">Case:</span> ${res.case}</div>
-        <div><span class="label">Recommended original price (no underestimation):</span> ${res.recommended ?? "—"}</div>
+        <div><span class="label">Recommended original price:</span> ${res.recommended ?? "—"}</div>
       `;
     }
 
